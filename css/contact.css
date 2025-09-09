@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-container {
+  background-color: #69de84 ;
+  padding: 40px;
+  border-radius: 100px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-details p {
+  font-size: 25px;
+  color: pink;
+  margin: 10px 10px;
+}
+
+.contact-details a {
+  text-decoration: none;
+  color: rgb(230, 231, 231);
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.contact-container p location {
+  font-size: 2em;
+  font-weight: 12rem;
+}
+
+.contact-container p {
+  text-align: center;
+  width: 100%;
+  display: grid;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: transparent;
+  padding: 80px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35%;
+  height: 1px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 4rem;
+  padding: 0;
+  display: flex;
+  gap: 4.2em; 
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  gap: 4.2rem;
+  position: relative;
+}
+
+nav ul li a.active:before {
+  position: absolute;
+  content: "";
+  width: 35%;
+  height: 1px;
+  border-bottom: 2px solid black;
+  bottom: -6px;
+}
+
+nav ul li a:before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 1px;
+  border-bottom: 2px solid grey;
+  bottom: -6px;
+  transition: width .3s;
+}
+
+
+
+
+nav {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  padding: 20px 10;
+}
+.nav-item {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgb(22, 26, 23);
+  transition: 0.3s;
+  cursor: pointer;
+  text-transform: capitalize;
+  position: right;
+  padding: 0.5em;
+}
+.nav-item:hover {
+  color: rgb(66, 74, 66);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  padding: 0 5%;
+  background-image: url(/greenbackground.jpeg);
+  background-size: cover;
+}
+#hero {
+  height: 100vh;
+  overflow: hidden;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.left{
+  text-align: center;
+  padding: 10em;
+  font-size: 1.5em;
+}
+body{
+  background-image: url(/greenbackground.jpeg);
+  background-size: cover;
+}
+
+.skills{
+  text-align: right;
+  padding: 10em;
+  font-size: 1.5em;
+}
+
+.h5{
+  text-align: left;
+}
+
